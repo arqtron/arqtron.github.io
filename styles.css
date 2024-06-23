@@ -1,0 +1,22 @@
+/* Estilo para párrafos */
+p {
+  color: #333; /* Color del texto */
+  font-size: 16px; /* Tamaño de la fuente */
+  line-height: 1.6; /* Espaciado entre líneas */
+}
+
+/* Estilo para botones */
+button {
+  background-color: #007bff; /* Color de fondo */
+  color: white; /* Color del texto */
+  padding: 10px 20px; /* Espaciado interno */
+  border: none; /* Sin borde */
+  border-radius: 5px; /* Borde redondeado */
+  cursor: pointer; /* Cursor de ratón al pasar sobre el botón */
+}
+
+/* Estilo para botones cuando están enfocados o activos */
+button:focus,
+button:active {
+  outline: none; /* Sin contorno al enfocar o activar */
+}
